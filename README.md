@@ -36,4 +36,4 @@ https://github.com/bitsbygui/petshop-react-typescript
 
 ## Deploy online
 
-https://seu-projeto.vercel.app
+https://petshop-react-typescript-6uwd.vercel.app
