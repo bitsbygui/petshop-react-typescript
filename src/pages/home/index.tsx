@@ -5,7 +5,7 @@ import toast from 'react-hot-toast'
 import { api } from '../../services/api'
 import { CartContext } from '../../contexts/CartContext';
 
-interface ProductProps{
+export interface ProductProps{
 	id: number;
 	title: string;
 	description: string;

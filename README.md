@@ -1,36 +1,38 @@
 # PetShop React + TypeScript + TailwindCSS
 
-Projeto PetShop criado com React, TypeScript e TailwindCSS.  
-Este projeto usa Context API para gerenciar o carrinho de compras, integra uma API fake com json-server para listar produtos e possui funcionalidades de adicionar/remover itens no carrinho e finalizar a compra com notificações visuais.
+Projeto PetShop com gerenciamento de carrinho usando Context API, consumindo API fake com json-server para listagem dos produtos.
 
 ## Funcionalidades
 
-- Listagem de produtos consumidos via API fake
-- Adicionar e remover itens no carrinho com controle de quantidade
-- Cálculo dinâmico do total do carrinho
-- Notificações personalizadas usando react-hot-toast
-- Finalizar compra com reset do carrinho e redirecionamento para Home
+- Página Home com listagem dos produtos via API fake
+- Adicionar produto ao carrinho com controle de quantidade
+- Header fixo exibindo nome do site e quantidade de itens no carrinho
+- Página Carrinho mostrando produtos adicionados com opção de adicionar/remover unidades
+- Cálculo e exibição do subtotal por produto e total do carrinho
+- Botão para finalizar compra que limpa o carrinho, exibe notificação personalizada e redireciona para Home
+- Notificações visuais customizadas usando react-hot-toast
 
 ## Tecnologias usadas
 
-- React.js (com Vite)
+- React.js (Vite)
 - TypeScript
 - TailwindCSS para estilização
-- React Router para navegação
+- React Router para navegação entre páginas
 - React Hot Toast para notificações
 - Json-server para API fake
 
 ## O que aprendi
 
-- Gerenciamento de estado com Context API
-- Integração com API fake (json-server)
+- Gerenciamento global de estado com Context API
+- Integração com API fake e consumo de dados assíncrono
 - Estilização responsiva com TailwindCSS
-- Uso de bibliotecas para notificação e roteamento
+- Navegação SPA com React Router
 - Boas práticas com TypeScript e React
+- Deploy contínuo com Vercel
 
 ## Link do repositório
 
-https://github.com/seuusuario/petshop-react-typescript
+https://github.com/bitsbygui/petshop-react-typescript
 
 ## Deploy online
 
