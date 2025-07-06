@@ -1,30 +1,37 @@
-# React + TypeScript + Vite
+# PetShop React + TypeScript + TailwindCSS
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Projeto PetShop criado com React, TypeScript e TailwindCSS.  
+Este projeto usa Context API para gerenciar o carrinho de compras, integra uma API fake com json-server para listar produtos e possui funcionalidades de adicionar/remover itens no carrinho e finalizar a compra com notificações visuais.
 
-Currently, two official plugins are available:
+## Funcionalidades
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- Listagem de produtos consumidos via API fake
+- Adicionar e remover itens no carrinho com controle de quantidade
+- Cálculo dinâmico do total do carrinho
+- Notificações personalizadas usando react-hot-toast
+- Finalizar compra com reset do carrinho e redirecionamento para Home
 
-## Expanding the ESLint configuration
+## Tecnologias usadas
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+- React.js (com Vite)
+- TypeScript
+- TailwindCSS para estilização
+- React Router para navegação
+- React Hot Toast para notificações
+- Json-server para API fake
 
-- Configure the top-level `parserOptions` property like this:
+## O que aprendi
 
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
-```
+- Gerenciamento de estado com Context API
+- Integração com API fake (json-server)
+- Estilização responsiva com TailwindCSS
+- Uso de bibliotecas para notificação e roteamento
+- Boas práticas com TypeScript e React
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+## Link do repositório
+
+https://github.com/seuusuario/petshop-react-typescript
+
+## Deploy online
+
+https://seu-projeto.vercel.app
